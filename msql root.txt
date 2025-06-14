@@ -1,0 +1,4 @@
+msql root
+admin apache and msql error port no issue
+def usr id :root
+pwd:nothing

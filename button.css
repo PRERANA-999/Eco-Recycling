@@ -1,0 +1,21 @@
+.container { 
+  height: 540px;
+  border: 3px transparent; 
+ overflow: hidden;
+}
+
+.btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+.btn1{
+  padding: 15px 32px;
+  border-radius: 12px;
+  border: ;
+  background-image: linear-gradient(lightgreen,lightgoldenrodyellow);
+}

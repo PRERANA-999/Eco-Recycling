@@ -1,0 +1,161 @@
+.navigation{
+	 display: flex;
+  align-items: center;
+  justify-content: space-between;
+	
+
+}
+.navitem{
+	padding:5px;
+}
+.navlink{
+	display: flex;
+	background: #fff;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+	border-radius: 10px 5px;
+	text-decoration: none;
+	font-weight: 600px;
+	font-size: 16px;
+	color: #c2c2a3 ;
+	padding: 9px 32px;
+	transition: .3s;
+    transform: skew(-15deg);
+}
+.navlink span{
+	display: block;
+	transform: skew(15deg);
+}
+.navlink:hover{
+	background: #d9ffb3;
+	color:  #484848;
+	box-shadow: none;
+}
+
+.heading{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	font-family: 'Pangolin', cursive;
+	background: rgba(242, 252, 227, 0.05);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(2.2px);
+	-webkit-backdrop-filter: blur(2.2px);
+	border: 1px solid rgba(242, 252, 227, 0.55);
+		padding: 10px 15px;
+
+	}
+
+
+
+	img{
+
+	display: flex;
+		justify-content: left;	
+	}
+
+
+	h1{
+		 display: flex;
+		font-family: 'Yeseva One', cursive;
+		font-size: 150px;
+      }
+
+
+	p{
+
+      position: absolute;
+    padding: 50px;
+     bottom: 0px;
+      text-align: center;
+      color: #f1f1f1;
+      font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  
+	}
+
+
+
+	.text-box{
+		display:flex;
+		align-items: center;
+         justify-content: center;
+		height: 500px;
+		width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+        background-image: url("HD-wallpaper-digital-clarity-clarity-sunlights-grass-background-nice-environment-shadows-forests-morning-widescreen-black-sky-trees-pines-cool-parkscapes-digital-awesome-brown-beautiful-seasons.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+	}
+
+
+.text-box{
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    text-align:center ;
+      background-image: url("HD-wallpaper-digital-clarity-clarity-sunlights-grass-background-nice-environment-shadows-forests-morning-widescreen-black-sky-trees-pines-cool-parkscapes-digital-awesome-brown-beautiful-seasons.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+}
+.text-box h1{
+	font-size: 30px;
+	margin-top: -180px;
+	margin-left: 60px;
+	padding: 10px;
+	align-items: center;
+	position: relative;
+
+}
+
+
+
+.text-box p{
+	margin-bottom:30px ;
+	font-size: 20px;
+	color: white;
+}
+
+.text-box2 h3{
+	font-size: 30px;
+	text-align: center;
+	padding: 50px;
+	margin-bottom:-50px ;
+	margin-left:-250px;
+}
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 12px;
+	font-size: 15px;
+	margin-bottom:-125px ;
+	margin-left:-220px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	border: 1px solid #66FF66;
+	background: #66FF66;
+	transition: 1s;
+}
+
+	
+
+
